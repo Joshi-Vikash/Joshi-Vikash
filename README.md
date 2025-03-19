@@ -15,7 +15,7 @@ You can click the Preview link to take a look at your changes.
   $(document).ready(function () {
     // Add a search box above the list
     $("#searchContainer").remove(); // Clear old search box if reloading script
-    $("div.ms-viewheadertr").before('<xxx id="searchContainer" style="margin-bottom: 20px;"><input type="text" id="searchBox" placeholder="Search Title or Description" style="width: 300px; padding: 5px;" /></div>');
+   // $("div.ms-viewheadertr").before('<div id="searchContainer" style="margin-bottom: 20px;"><input type="text" id="searchBox" placeholder="Search Title or Description" style="width: 300px; padding: 5px;" /></div>');
 
     // Event listener for the search box
     $("#searchBox").on("keyup", function () {
